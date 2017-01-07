@@ -19,7 +19,6 @@
 		068240EF1E160E72009052E1 /* CHMediator+CHModuleABehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 068240EA1E160E72009052E1 /* CHMediator+CHModuleABehaviour.m */; };
 		068240F01E160E72009052E1 /* CHModuleABehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 068240EC1E160E72009052E1 /* CHModuleABehaviour.m */; };
 		068240F11E160E72009052E1 /* ModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068240EE1E160E72009052E1 /* ModuleAViewController.m */; };
-		06CF8CBD1E1B4AA100C97D07 /* NSObject+DLIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CF8CBC1E1B4AA100C97D07 /* NSObject+DLIntrospection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,8 +42,6 @@
 		068240ED1E160E72009052E1 /* ModuleAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleAViewController.h; sourceTree = "<group>"; };
 		068240EE1E160E72009052E1 /* ModuleAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleAViewController.m; sourceTree = "<group>"; };
 		069E51BC1E14E96200E040B2 /* CHMeditorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHMeditorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		06CF8CBB1E1B4AA100C97D07 /* NSObject+DLIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DLIntrospection.h"; sourceTree = "<group>"; };
-		06CF8CBC1E1B4AA100C97D07 /* NSObject+DLIntrospection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DLIntrospection.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +98,6 @@
 		069E51B31E14E96200E040B2 = {
 			isa = PBXGroup;
 			children = (
-				06CF8CBA1E1B4AA100C97D07 /* DLIntrospection */,
 				068240E81E160E72009052E1 /* ModuleA */,
 				068240D51E160BFB009052E1 /* CHMediatorDemo */,
 				068240CE1E160BDC009052E1 /* CHMediator */,
@@ -115,15 +111,6 @@
 				069E51BC1E14E96200E040B2 /* CHMeditorDemo.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		06CF8CBA1E1B4AA100C97D07 /* DLIntrospection */ = {
-			isa = PBXGroup;
-			children = (
-				06CF8CBB1E1B4AA100C97D07 /* NSObject+DLIntrospection.h */,
-				06CF8CBC1E1B4AA100C97D07 /* NSObject+DLIntrospection.m */,
-			);
-			path = DLIntrospection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +188,6 @@
 				068240F11E160E72009052E1 /* ModuleAViewController.m in Sources */,
 				068240D31E160BDC009052E1 /* CHBehaviour.m in Sources */,
 				068240E71E160BFB009052E1 /* ViewController.m in Sources */,
-				06CF8CBD1E1B4AA100C97D07 /* NSObject+DLIntrospection.m in Sources */,
 				068240E11E160BFB009052E1 /* AppDelegate.m in Sources */,
 				068240EF1E160E72009052E1 /* CHMediator+CHModuleABehaviour.m in Sources */,
 				068240F01E160E72009052E1 /* CHModuleABehaviour.m in Sources */,

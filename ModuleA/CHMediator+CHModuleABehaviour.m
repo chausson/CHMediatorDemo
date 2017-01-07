@@ -7,7 +7,6 @@
 //
 
 #import "CHMediator+CHModuleABehaviour.h"
-#import "NSObject+DLIntrospection.h"
 
 NSString *const className = @"CHModuleABehaviour";
 NSString *const present = @"presentA:";
