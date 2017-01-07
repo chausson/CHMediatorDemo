@@ -8,14 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-#define TargetBind(a)\
-property (copy, nonatomic) NSString *a;\
 
 typedef void (^CHMeditorCallBack)(NSDictionary *info);
 
 @interface CHMediator : NSObject
 
-@TargetBind(CHModuleABehaviour)
 + (CHMediator *)sharedInstance;
 
 - (id )performClassName:(NSString *)className
@@ -27,8 +24,10 @@ typedef void (^CHMeditorCallBack)(NSDictionary *info);
                  method:(NSString *)methodName
                   param:(id )parm,...;
 
+#pragma mark TODO 网络调用接口
+
 - (id )performWithURL:(NSURL *)url
            completion:(CHMeditorCallBack )completion;
 
-#pragma mark TODO 网络调用接口
+
 @end

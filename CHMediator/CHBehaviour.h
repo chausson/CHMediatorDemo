@@ -17,7 +17,7 @@ typedef void (^CHBehaviourCallBack)();
 
 @interface CHBehaviour : NSObject
 - (NSString *)className;
-- (Class )owner;
+- (Class )owner; // 需要子类实现
 - (UIViewController *)defultController;
 
 /**

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "CHMediator+ModuleA.h"
+#import "CHMediator+CHModuleABehaviour.h"
 @interface ViewController ()
 
 @end
@@ -27,7 +27,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {
-       UIViewController *controller =  [[CHMediator sharedInstance] fetchPresentViewController];
+        UIViewController *controller =  [[CHMediator sharedInstance] fetchPresentViewControllerWithIdentifer:1001];
         if ([controller isKindOfClass:[NSError class]]) {
             return;
         }

@@ -10,10 +10,10 @@
 
 @implementation CHModuleABehaviour
 
-- (ModuleAViewController *)presentA:(NSString *)title{
+- (ModuleAViewController *)presentA:(NSNumber *)identifer{
     ModuleAViewController *vc = [[ModuleAViewController alloc]init];
     vc.view.backgroundColor = [UIColor whiteColor];
-    vc.titleLabel.text = title;
+    vc.titleLabel.text = [NSString stringWithFormat:@"%ld",[identifer integerValue]];
     vc.titleLabel.backgroundColor = [UIColor orangeColor];
     return vc;
     

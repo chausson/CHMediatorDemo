@@ -16,7 +16,7 @@
 		068240E51E160BFB009052E1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 068240DD1E160BFB009052E1 /* Info.plist */; };
 		068240E61E160BFB009052E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 068240DE1E160BFB009052E1 /* main.m */; };
 		068240E71E160BFB009052E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068240E01E160BFB009052E1 /* ViewController.m */; };
-		068240EF1E160E72009052E1 /* CHMediator+ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 068240EA1E160E72009052E1 /* CHMediator+ModuleA.m */; };
+		068240EF1E160E72009052E1 /* CHMediator+CHModuleABehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 068240EA1E160E72009052E1 /* CHMediator+CHModuleABehaviour.m */; };
 		068240F01E160E72009052E1 /* CHModuleABehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 068240EC1E160E72009052E1 /* CHModuleABehaviour.m */; };
 		068240F11E160E72009052E1 /* ModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068240EE1E160E72009052E1 /* ModuleAViewController.m */; };
 		06CF8CBD1E1B4AA100C97D07 /* NSObject+DLIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CF8CBC1E1B4AA100C97D07 /* NSObject+DLIntrospection.m */; };
@@ -36,8 +36,8 @@
 		068240DE1E160BFB009052E1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		068240DF1E160BFB009052E1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		068240E01E160BFB009052E1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		068240E91E160E72009052E1 /* CHMediator+ModuleA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CHMediator+ModuleA.h"; sourceTree = "<group>"; };
-		068240EA1E160E72009052E1 /* CHMediator+ModuleA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CHMediator+ModuleA.m"; sourceTree = "<group>"; };
+		068240E91E160E72009052E1 /* CHMediator+CHModuleABehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CHMediator+CHModuleABehaviour.h"; sourceTree = "<group>"; };
+		068240EA1E160E72009052E1 /* CHMediator+CHModuleABehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CHMediator+CHModuleABehaviour.m"; sourceTree = "<group>"; };
 		068240EB1E160E72009052E1 /* CHModuleABehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHModuleABehaviour.h; sourceTree = "<group>"; };
 		068240EC1E160E72009052E1 /* CHModuleABehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHModuleABehaviour.m; sourceTree = "<group>"; };
 		068240ED1E160E72009052E1 /* ModuleAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleAViewController.h; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 		068240E81E160E72009052E1 /* ModuleA */ = {
 			isa = PBXGroup;
 			children = (
-				068240E91E160E72009052E1 /* CHMediator+ModuleA.h */,
-				068240EA1E160E72009052E1 /* CHMediator+ModuleA.m */,
+				068240E91E160E72009052E1 /* CHMediator+CHModuleABehaviour.h */,
+				068240EA1E160E72009052E1 /* CHMediator+CHModuleABehaviour.m */,
 				068240EB1E160E72009052E1 /* CHModuleABehaviour.h */,
 				068240EC1E160E72009052E1 /* CHModuleABehaviour.m */,
 				068240ED1E160E72009052E1 /* ModuleAViewController.h */,
@@ -203,7 +203,7 @@
 				068240E71E160BFB009052E1 /* ViewController.m in Sources */,
 				06CF8CBD1E1B4AA100C97D07 /* NSObject+DLIntrospection.m in Sources */,
 				068240E11E160BFB009052E1 /* AppDelegate.m in Sources */,
-				068240EF1E160E72009052E1 /* CHMediator+ModuleA.m in Sources */,
+				068240EF1E160E72009052E1 /* CHMediator+CHModuleABehaviour.m in Sources */,
 				068240F01E160E72009052E1 /* CHModuleABehaviour.m in Sources */,
 				068240E61E160BFB009052E1 /* main.m in Sources */,
 				068240D41E160BDC009052E1 /* CHMediator.m in Sources */,

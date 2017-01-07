@@ -9,8 +9,8 @@
 #import "CHMediator.h"
 #import <UIKit/UIKit.h>
 
-@interface CHMediator (ModuleA)
+@interface CHMediator (CHModuleABehaviour)
 
-- (UIViewController *)fetchPresentViewController;
+- (UIViewController *)fetchPresentViewControllerWithIdentifer:(NSInteger)identifer;
 - (UIViewController *)fetchPushViewController;
 @end
